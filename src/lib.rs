@@ -67,7 +67,7 @@ mod parse;
 mod pkcs1v15;
 mod raw;
 
-pub use self::key::{PublicKey, RSAPrivateKey, RSAPublicKey};
+pub use self::key::{PublicKey, PublicKeyParts, RSAPrivateKey, RSAPublicKey};
 pub use self::padding::PaddingScheme;
 
 // Optionally expose internals if requested via feature-flag.
